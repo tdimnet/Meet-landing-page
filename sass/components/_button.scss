@@ -1,25 +1,26 @@
+@mixin btn {
+    cursor: pointer;
+    font-family: $red-hat-display;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.625rem;
+    text-decoration: none;
+}
+
 @mixin btn-primary {
+    @include btn;
+
     background-color: $hippie-blue;
+    border-radius: 29px;
     color: $alabaster;
     padding: 1rem 2.5rem;
-    border-radius: 29px;
-    cursor: pointer;
-    text-decoration: none;
-    font-family: $red-hat-display;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 1.625rem;
 }
 
 @mixin btn-secondary {
+    @include btn;
+
     background-color: $deluge;
+    border-radius: 29px;
     color: $alabaster;
     padding: 1rem 1.8125rem;
-    cursor: pointer;
-    text-decoration: none;
-    font-family: $red-hat-display;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 1.625rem;
-    border-radius: 29px;
 }
