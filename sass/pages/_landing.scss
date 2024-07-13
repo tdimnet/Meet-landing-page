@@ -1,5 +1,16 @@
-body {
-    background-color: $alabaster;
-    padding-top: 3.25rem;
-    padding-bottom: 3.25rem;
+.landing-page {
+  background-color: $alabaster;
+  padding-top: 3.25rem;
+  padding-bottom: 3.25rem;
+}
+
+.landing-page-hero {
+    &__image {
+        height: 9.625rem;
+        width: 100%;
+        background-image: url("/img/meet-users.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
 }
