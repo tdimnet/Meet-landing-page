@@ -12,5 +12,22 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
+        margin-bottom: 3rem
+    }
+
+    &__content {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    &__title {
+        @include heading-h1;
+        text-align: center;
+        margin-bottom: 1.75rem;
+    }
+
+    &__description {
+        @include paragraph;
+        text-align: center;
     }
 }
