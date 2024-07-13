@@ -1,11 +1,13 @@
-.btn {
+@mixin btn-primary {
+    background-color: $hippie-blue;
+    color: $alabaster;
+    padding: 1rem 2.5rem;
+    border-radius: 29px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: $red-hat-display;
+    font-weight: 700;
     font-size: 1rem;
-
-    &--primary {
-        color: tomato;
-    }
-
-    &--secondary {
-        color: lightblue;
-    }
+    line-height: 1.625rem;
 }
+
