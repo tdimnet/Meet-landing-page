@@ -1,0 +1,18 @@
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .oval {
+    position: relative;
+    left: -10px;
+
+    &--primary {
+      top: 7px;
+    }
+
+    &--secondary {
+      top: -7px;
+    }
+  }
+}

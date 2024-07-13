@@ -1,0 +1,13 @@
+.oval {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+}
+
+.oval--primary {
+    background-color: $hippie-blue;
+}
+
+.oval--secondary {
+    background-color: $deluge;
+}
