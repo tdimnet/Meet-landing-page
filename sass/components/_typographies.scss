@@ -5,6 +5,17 @@
   line-height: clamp(2.75rem, 2.3099rem + 1.8779vw, 4rem);
 }
 
+@mixin heading-h2 {
+  font-family: $red-hat-display;
+  color: $ebony-clay;
+}
+
+@mixin overline {
+  font-family: $red-hat-display;
+  color: $malibu;
+  text-transform: uppercase;
+}
+
 @mixin paragraph {
   font-family: $red-hat-display;
   color: $manatee;
