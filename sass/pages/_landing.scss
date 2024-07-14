@@ -5,6 +5,8 @@
 }
 
 .landing-page-hero {
+    margin-bottom: 4rem;
+
     &__image {
         height: 9.625rem;
         width: 100%;
@@ -46,5 +48,24 @@
 
     &__btn--secondary {
         @include btn-secondary;
+    }
+}
+
+.landing-page-first-step {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    &__step-number {
+        margin-bottom: 4rem;
+    }
+
+    &__pictures {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    &__picture {
+        border-radius: 8px;
     }
 }
