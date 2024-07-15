@@ -68,4 +68,11 @@
     &__picture {
         border-radius: 8px;
     }
+
+    &__subheading {
+        @include overline;
+        text-align: center;
+    }
+
+    &__heading {}
 }
