@@ -8,6 +8,9 @@
 @mixin heading-h2 {
   font-family: $red-hat-display;
   color: $ebony-clay;
+  font-size: clamp(2rem, 1.8239rem + 0.7512vw, 2.5rem);
+  line-height: clamp(2.25rem, 2.0739rem + 0.7512vw, 2.75rem);
+  font-weight: 900;
 }
 
 @mixin overline {
@@ -17,7 +20,7 @@
   font-size: 1rem;
   line-height: 1.625rem;
   letter-spacing: .25rem;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 @mixin paragraph {

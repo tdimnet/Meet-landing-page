@@ -2,6 +2,9 @@
 
 ![Design preview for the Meet landing page coding challenge](./preview.jpg)
 
+
+https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/#aa-for-those-who-dont-mind-that-edge-case
+
 ## Welcome! 👋
 
 Thanks for purchasing this premium Frontend Mentor coding challenge.
