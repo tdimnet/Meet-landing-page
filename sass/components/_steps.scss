@@ -1,13 +1,23 @@
 @mixin step {
     @include paragraph;
-    font-weight: 900;
-
-    background-color: $alabaster;
-    border: 1px solid $manatee;
-    height: 3.5rem;
-    width: 3.5rem;
-    border-radius: 50%;
-    display: flex;
     align-items: center;
+    background-color: $alabaster;
+    border-radius: 50%;
+    border: 1px solid $manatee;
+    display: flex;
+    font-weight: 900;
+    height: 3.5rem;
     justify-content: center;
+    position: relative;
+    width: 3.5rem;
+
+    &::before {
+        border: 1px solid $manatee;
+        content: "";
+        height: 5.25rem;
+        left: 50%;
+        position: absolute;
+        top: -84px;
+        transform: translateX(-50%);
+    }
 }
