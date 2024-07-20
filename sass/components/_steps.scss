@@ -1,0 +1,13 @@
+@mixin step {
+    @include paragraph;
+    font-weight: 900;
+
+    background-color: $alabaster;
+    border: 1px solid $manatee;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
