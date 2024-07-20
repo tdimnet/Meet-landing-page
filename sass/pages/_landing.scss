@@ -8,7 +8,7 @@
 
     @media screen and (min-width: $desktop) {
         position: relative;
-        background-image: url("/img/image-hero-left.png"), url("/img/image-hero-right.png");
+        background-image: url("../img/image-hero-left.png"), url("../img/image-hero-right.png");
         background-repeat: no-repeat, no-repeat;
         background-position: left center, right center;
     }
@@ -16,7 +16,7 @@
     &__image {
         height: 9.625rem;
         width: 100%;
-        background-image: url("/img/meet-users.png");
+        background-image: url("../img/meet-users.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -141,7 +141,7 @@
         background-color: $hippie-blue;
 
         &::before {
-            background-image: url("/img/image-footer.jpg");
+            background-image: url("../img/image-footer.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             content: "";
@@ -153,11 +153,11 @@
             opacity: .1;
 
             @media screen and (min-width: $tablet) {
-                background-image: url("/img/image-footer-tablet.jpg")
+                background-image: url("../img/image-footer-tablet.jpg")
             }
 
             @media screen and (min-width: $desktop) {
-                background-image: url("/img/image-footer-desktop.jpg")
+                background-image: url("../img/image-footer-desktop.jpg")
             }
         }
     }
