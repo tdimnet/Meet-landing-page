@@ -1,7 +1,6 @@
 .landing-page {
   background-color: $alabaster;
   padding-top: 3.25rem;
-  padding-bottom: 3.25rem;
 }
 
 .landing-page-hero {
@@ -91,6 +90,24 @@
 .landing-page-second-step {
     &__download-wrapper {
         padding: 5.75rem 1.5rem 4.5rem;
+        position: relative;
+        text-align: center;
         background-color: $hippie-blue;
+    }
+
+    &__heading {
+        @include heading-h2;
+        color: $alabaster;
+        margin-bottom: 1.5rem;
+    }
+
+    &__description {
+        @include paragraph;
+        color: $alabaster;
+        margin-bottom: 2rem;
+    }
+
+    &__btn {
+        @include btn-secondary;
     }
 }
