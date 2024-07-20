@@ -6,6 +6,13 @@
 .landing-page-hero {
     margin-bottom: 4rem;
 
+    @media screen and (min-width: $desktop) {
+        position: relative;
+        background-image: url("/img/image-hero-left.png"), url("/img/image-hero-right.png");
+        background-repeat: no-repeat, no-repeat;
+        background-position: left center, right center;
+    }
+
     &__image {
         height: 9.625rem;
         width: 100%;
@@ -17,6 +24,10 @@
 
         @media screen and (min-width: $tablet) {
             height: 18.9375rem;
+        }
+
+        @media screen and (min-width: $desktop) {
+            display: none;
         }
     }
 
@@ -80,6 +91,9 @@
 
         @media screen and (min-width: $tablet) {
             grid-template-columns: repeat(4, 1fr);
+            max-width: $maxWidth;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 
