@@ -31,12 +31,12 @@ jobs:
         run: cp -r img dist/img
       - name: Running ls to make sure everything works
         run: ls dist
-      # - name: Setting up Pages
-      #   uses: actions/configure-pages@v3
-      # - name: Uploading artifact
-      #   uses: actions/upload-pages-artifact@v1
-      #   with:
-      #     path: "./dist"
-      # - name: Deploying to GitHub Pages
-      #   id: deployment
-      #   uses: actions/deploy-pages@v1
+      - name: Setting up Pages
+        uses: actions/configure-pages@v3
+      - name: Uploading artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: "./dist"
+      - name: Deploying to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
