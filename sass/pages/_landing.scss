@@ -137,6 +137,10 @@
             left: 0;
             top: 0;
             opacity: .1;
+
+            @media screen and (min-width: $tablet) {
+                background-image: url("/img/image-footer-tablet.jpg")
+            }
         }
     }
 
