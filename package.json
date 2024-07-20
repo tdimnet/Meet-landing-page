@@ -4,7 +4,7 @@
   "description": "![Design preview for the Meet landing page coding challenge](./preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "sass:watch": "sass ./sass/main.scss ./dist/css/main.css --watch",
+    "sass:watch": "sass ./sass/main.scss ./css/main.css --watch",
     "sass:build": "sass ./sass/main.scss ./dist/css/main.css -s compressed",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

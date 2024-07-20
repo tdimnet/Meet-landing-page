@@ -18,6 +18,7 @@
 
 # build output
 dist/
+css/
 
 # dependencies
 node_modules/
