@@ -155,11 +155,20 @@
             @media screen and (min-width: $tablet) {
                 background-image: url("/img/image-footer-tablet.jpg")
             }
+
+            @media screen and (min-width: $desktop) {
+                background-image: url("/img/image-footer-desktop.jpg")
+            }
         }
     }
 
     &__content {
         @include content;
+        
+        @media screen and (min-width: $desktop) {
+            max-width: $maxWidth;
+            text-align: left;
+        }
     }
 
     &__heading {
