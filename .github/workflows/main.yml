@@ -25,8 +25,10 @@ jobs:
         run: npm ci
       - name: Building CSS with Sass
         run: npm run sass:build
-      - name: Copying index.html to dist folder
+      - name: Copying index.html to dist directory
         run: cp index.html dist/
+      - name: Copying images to dist/img directory
+        run: cp -r img dist/img
       - name: Running ls to make sure everything works
         run: ls dist
       # - name: Setting up Pages
